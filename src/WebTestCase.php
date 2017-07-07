@@ -1,8 +1,8 @@
 <?php
-	namespace DaybreakStudios\Utility\SymfonyPHPUntHelpers;
+	namespace DaybreakStudios\Utility\SymfonyPHPUnitHelpers;
 
-	use DaybreakStudios\Utility\SymfonyPHPUntHelpers\DoctrineEntities\EntitiesTrait;
-	use DaybreakStudios\Utility\SymfonyPHPUntHelpers\DoctrineFixtures\FixturesTrait;
+	use DaybreakStudios\Utility\SymfonyPHPUnitHelpers\DoctrineEntities\EntitiesTrait;
+	use DaybreakStudios\Utility\SymfonyPHPUnitHelpers\DoctrineFixtures\FixturesTrait;
 	use Liip\FunctionalTestBundle\Test\WebTestCase as LiipWebTestCase;
 	use Symfony\Component\HttpKernel\Client;
 

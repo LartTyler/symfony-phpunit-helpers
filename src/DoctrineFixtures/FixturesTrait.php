@@ -1,5 +1,5 @@
 <?php
-	namespace DaybreakStudios\Utility\SymfonyPHPUntHelpers\DoctrineFixtures;
+	namespace DaybreakStudios\Utility\SymfonyPHPUnitHelpers\DoctrineFixtures;
 
 	use Doctrine\Common\DataFixtures\Executor\AbstractExecutor;
 	use Doctrine\Common\DataFixtures\ReferenceRepository;

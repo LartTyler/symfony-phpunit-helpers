@@ -1,5 +1,5 @@
 <?php
-	namespace DaybreakStudios\Utility\SymfonyPHPUntHelpers\DoctrineEntities;
+	namespace DaybreakStudios\Utility\SymfonyPHPUnitHelpers\DoctrineEntities;
 
 	use DaybreakStudios\Utility\DoctrineEntities\EntityInterface;
 	use Doctrine\Common\Collections\Collection;
