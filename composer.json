@@ -1,0 +1,28 @@
+{
+	"name": "dbstudios/symfony-phpunit-helpers",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Tyler Lartonoix",
+			"email": "tyler@lartonoix.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6",
+		"liip/functional-test-bundle": "~1.8",
+		"phpunit/phpunit": "~5.7"
+	},
+	"require-dev": {
+		"dbstudios/doctrine-entities": "~1.0",
+		"doctrine/doctrine-fixtures-bundle": "~2.3"
+	},
+	"suggest": {
+		"dbstudios/doctrine-entities": "Required when using entity related assertions",
+		"doctrine/doctrine-fixtures-bundle": "Required when autoloading fixtures in setUp"
+	},
+	"autoload": {
+		"psr-4": {
+			"DaybreakStudios\\Utility\\SymfonyPHPUnitHelpers\\": "src/"
+		}
+	}
+}
